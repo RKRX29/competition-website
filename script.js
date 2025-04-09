@@ -382,4 +382,19 @@ document.querySelectorAll('.sidebar-nav a[href^="#"]').forEach(anchor => {
             }
         });
     }
+
+    // Sidebar Toggle Functionality
+    const sidebarToggle = document.getElementById('sidebar-toggle');
+    const sidebar = document.querySelector('.sidebar');
+    const mainContent = document.querySelector('.main-content');
+
+    if (sidebarToggle && sidebar && mainContent) {
+        sidebarToggle.addEventListener('click', () => {
+            sidebar.classList.toggle('active');
+            mainContent.classList.toggle('shifted');
+        });
+    } else {
+        console.error("Sidebar toggle elements not found!");
+    }
+
 }); // Close DOMContentLoaded listener

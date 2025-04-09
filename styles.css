@@ -13,8 +13,13 @@ body {
     height: 100vh;
     position: fixed;
     top: 0;
-    left: 0;
+    left: -250px; /* Start hidden */
     z-index: 1000;
+    transition: left 0.3s ease; /* Add transition */
+}
+
+.sidebar.active {
+    left: 0; /* Show sidebar */
 }
 
 .sidebar-header {
@@ -55,9 +60,15 @@ body {
 
 /* Main Content Styles */
 .main-content {
-    margin-left: 250px;
+    margin-left: 0; /* Start with no margin */
     padding: 20px;
-    width: calc(100% - 250px);
+    width: 100%; /* Occupy full width initially */
+    transition: margin-left 0.3s ease; /* Add transition */
+}
+
+.main-content.shifted {
+    margin-left: 250px; /* Apply margin when sidebar is active */
+    width: calc(100% - 250px); /* Adjust width when shifted */
 }
 
 /* Hero Section */
@@ -188,24 +199,4 @@ body {
     }
 }
 
-/* Mobile Sidebar Toggle */
-@media (max-width: 992px) {
-    .sidebar {
-        position: fixed;
-        left: -250px;
-        transition: left 0.3s ease;
-    }
-
-    .sidebar.active {
-        left: 0;
-    }
-
-    .main-content {
-        margin-left: 0;
-        width: 100%;
-    }
-
-    .navbar-toggler {
-        display: block !important;
-    }
-}
+/* Removed Mobile Sidebar Toggle media query as toggle button handles this now */
