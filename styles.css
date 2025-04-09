@@ -157,6 +157,10 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.competition-card-body .btn {
+    margin-top: auto; /* Push button to the bottom */
+}
+
 .competition-grid-item {
     /* height: 100%; Removed this line */
 }
