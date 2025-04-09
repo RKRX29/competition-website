@@ -126,7 +126,7 @@ body {
 }
 
 .competition-card-body .text-muted {
-    font-size: 1rem; /* Increased from 0.9rem */
+    font-size: 1.1rem; /* Increased from 1rem */
     color: #666;
     margin-bottom: 1rem;
 }
@@ -137,7 +137,7 @@ body {
 }
 
 .prize-amount {
-    font-size: 1.1rem; /* Adjusted size for single line */
+    font-size: 1.2rem; /* Increased from 1.1rem */
     color: #333; /* Adjusted color */
     font-weight: normal; /* Adjusted weight */
     margin-bottom: 0.5rem; /* Adjusted margin */

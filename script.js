@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
         id: 1,
         title: "Stock Market Prediction Challenge",
-        prize: "$5,000 + Internship Opportunity",
+        prize: "$500 + Internship Opportunity",
         entryFee: "$10",
         participants: 1850,
         timeLeft: "3 days",
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
         id: 2,
         title: "AI Trading Algorithm Competition",
-        prize: "$3,000 + Job Interview",
+        prize: "$300 + Job Interview",
         entryFee: "$8",
         participants: 1250,
         timeLeft: "5 days",
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
         id: 3,
         title: "CodeCraft Challenge 2025",
-        prize: "$2,500 + Certificate",
+        prize: "$250 + Certificate",
         entryFee: "Free",
         participants: 2500,
         timeLeft: "1 week",
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
         id: 4,
         title: "Project Management Challenge",
-        prize: "$4,000 + Project Manager Certificate",
+        prize: "$400 + Project Manager Certificate",
         entryFee: "$5",
         participants: 950,
         timeLeft: "4 days",
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
         id: 6,
         title: "International Math Olympiad",
-        prize: "$3,500 + Scholarship",
+        prize: "$350 + Scholarship",
         entryFee: "$10",
         participants: 750,
         timeLeft: "1 week",
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
         id: 7,
         title: "Sports Event Prediction",
-        prize: "$2,000 + Free Subscription",
+        prize: "$200 + Free Subscription",
         entryFee: "$7",
         participants: 1200,
         timeLeft: "3 days",
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
         id: 8,
         title: "Web Development Challenge",
-        prize: "$1,500 + Certificate",
+        prize: "$150 + Certificate",
         entryFee: "$5",
         participants: 1800,
         timeLeft: "5 days",
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
         id: 9,
         title: "Project Budget Optimization",
-        prize: "$3,000 + Professional Certification",
+        prize: "$300 + Professional Certification",
         entryFee: "$8",
         participants: 1000,
         timeLeft: "4 days",
@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
         id: 11,
         title: "Math Puzzle Challenge",
-        prize: "$2,000 + Math Scholarship",
+        prize: "$200 + Math Scholarship",
         entryFee: "$6",
         participants: 800,
         timeLeft: "1 week",
@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
         id: 12,
         title: "Weather Prediction Competition",
-        prize: "$1,500 + Research Grant",
+        prize: "$150 + Research Grant",
         entryFee: "$5",
         participants: 1100,
         timeLeft: "4 days",
@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
         id: 13,
         title: "Advanced Calculus Challenge",
-        prize: "$1,800 + Medal",
+        prize: "$180 + Medal",
         entryFee: "$7",
         participants: 650,
         timeLeft: "6 days",
@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
         id: 14,
         title: "World Cup Cricket Predictor",
-        prize: "$1,200 + Signed Bat",
+        prize: "$120 + Signed Bat",
         entryFee: "$5",
         participants: 2100,
         timeLeft: "2 days",
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
         id: 15,
         title: "Python Automation Contest",
-        prize: "$2,200 + Internship",
+        prize: "$220 + Internship",
         entryFee: "Free",
         participants: 1900,
         timeLeft: "8 days",
@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
         id: 16,
         title: "Responsive Portfolio Design",
-        prize: "$2,800 + Design Software",
+        prize: "$280 + Design Software",
         entryFee: "$10",
         participants: 1350,
         timeLeft: "10 days",
@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
         id: 17,
         title: "Cyber Security Capture The Flag",
-        prize: "$4,500 + Security Tools",
+        prize: "$450 + Security Tools",
         entryFee: "$15",
         participants: 850,
         timeLeft: "6 days",
@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
         id: 18,
         title: "Mobile App UI/UX Design Contest",
-        prize: "$3,200 + Design Software Suite",
+        prize: "$320 + Design Software Suite",
         entryFee: "$10",
         participants: 1150,
         timeLeft: "9 days",
@@ -202,7 +202,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
         id: 19,
         title: "Financial Modeling World Cup",
-        prize: "$6,000 + Analyst Role Interview",
+        prize: "$600 + Analyst Role Interview",
         entryFee: "$20",
         participants: 600,
         timeLeft: "12 days",
