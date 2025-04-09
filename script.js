@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+ddocument.addEventListener('DOMContentLoaded', () => {
     // Sample data for competitions
     const competitions = [
         {
